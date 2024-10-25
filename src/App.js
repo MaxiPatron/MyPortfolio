@@ -1,15 +1,15 @@
 import React from "react";
 import "./index.css";
-import Home from "./routes/Main";
-import About from "./routes/About";
-import Project from "./routes/Projects";
-import Contact from "./routes/Contact";
+import Home from "./routes/Home";
+
 
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return <div>
-    <h1>Hello World!</h1>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   </div>
 }
 

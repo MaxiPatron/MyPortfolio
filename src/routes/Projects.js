@@ -1,7 +1,11 @@
 import React from "react";
-
-const Project = () => {
-  return <div>Project</div>;
+import NavBar from '../components/NavBar'
+const Projects = () => {
+  return (
+    <div>
+      <NavBar />
+    </div>
+  )
 };
 
-export default Project;
+export default Projects;
