@@ -1,5 +1,5 @@
 import "./BackImgStyle.css";
-import IntroImg from "../assets/Programming.png";
+import IntroImg from "../assets/Prog.jpg";
 import { Link } from "react-router-dom";
 const BackImg = () => {
     return (<div className="imghome">
@@ -7,8 +7,8 @@ const BackImg = () => {
             <img className="into-Img" src={IntroImg} alt="IntroImg" />
         </div>
         <div className="content">
-            <p style={{color: "#000"}}>Hola, soy Máximo</p>
-            <h1 style={{color: "#000"}}>Desarrollador de Software</h1>
+            <p style={{ color: "#fff" }}>Hola, soy Máximo</p>
+            <h1 style={{ color: "#000" }}>Desarrollador de Software</h1>
             <div>
                 <Link to="/" className="btn">
                     Proyectos
