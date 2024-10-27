@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const BackImg = () => {
     return (<div className="imghome">
         <div className="mask">
-            <img className="into-Img" src={IntroImg} alt="IntroImg" />
+            <img id="Home" className="into-Img" src={IntroImg} alt="IntroImg" />
         </div>
         <div className="content">
             <p style={{ color: "#fff" }}>Hola, soy Máximo</p>

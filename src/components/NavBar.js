@@ -1,5 +1,5 @@
 import "./NavBarStyles.css"
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
@@ -14,8 +14,8 @@ const NavBar = () => {
                     <h1>Portfolio</h1>
                 </Link>
                 <ul className={click ? "navbar active" : "navbar"}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/About">About Me</Link></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About Me</a></li>
                 </ul>
                 <div className="fabar" onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{ color: "#fff" }} />) : (<FaBars size={20} style={{ color: "#fff" }} />)}
