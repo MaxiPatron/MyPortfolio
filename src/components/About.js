@@ -6,13 +6,11 @@ const About = () => {
         <div fluid className="home-about-section" id="about">
             <div>
                 <div>
-                        <h1 style={{ fontSize: "2.6em" }}>
-                            SOBRE MI
-                        </h1>
+                        <h1 style={{ fontSize: "2.6em", textDecoration:"underline"}}>SOBRE MI</h1>
                     <div md={8} className="home-about-description">
                         <div className="left">
                             <div className="AbImg">
-                                <img id="About" className="into-Img" src={AboutImg} alt="IntroImg" />
+                                <img  className="into-Img" src={AboutImg} alt="IntroImg" />
                             </div>
                         </div>
                         <div className="right">

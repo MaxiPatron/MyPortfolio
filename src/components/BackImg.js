@@ -13,7 +13,7 @@ const BackImg = () => {
                 <Link to="/" className="btn">
                     Proyectos
                 </Link>
-                <Link to="/" className="btn btn-light">
+                <Link id="About" to="/" className="btn btn-light">
                     Contacto
                 </Link>
             </div>
