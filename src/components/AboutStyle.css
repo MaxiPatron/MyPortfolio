@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 .home-about-description {
@@ -33,6 +33,7 @@
     font-size: 1.1rem;
     line-height: 1.5rem;
     color: #fff;
+    padding-top: 2rem;
 }
 .home-about-description a {
     font-size: 1.1rem;
