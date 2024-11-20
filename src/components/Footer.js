@@ -12,7 +12,7 @@ const Footer = forwardRef((props, ref) => {
                 <div className="left">
                     <div className="Loc">
                         <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                        <p id="Footer">Argentina, Córdoba</p>
+                        <p id="footer">Argentina, Córdoba</p>
                     </div>
                     <div className="Email">
                         <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />maximo.patron2003@gmail.com</h4>
