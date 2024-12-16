@@ -1,13 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
-ReactDOM.render(
-  <BrowserRouter>
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <BrowserRouter basename="/MyPortfolio">
     <App />
-  </BrowserRouter>,
-  document.getElementById("root")
-);  
-BrowserRouter()
+  </BrowserRouter>
+);
