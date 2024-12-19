@@ -14,19 +14,19 @@ const Skills = () => {
                     <h2 className="skills-box-title">Frontend</h2>
                     <ul className="skills-text">
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><FaHtml5 /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaHtml5 /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><FaCss3 /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaCss3 /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><FaJs /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaJs /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://react.dev/" target="_blank" rel="noopener noreferrer"><FaReact /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaReact /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer"><FaBootstrap /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaBootstrap /></a>
                         </li>
                     </ul>
                 </div>
@@ -34,10 +34,10 @@ const Skills = () => {
                     <h2 className="skills-box-title">Backend</h2>
                     <ul>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer"><FaNpm /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaNpm /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://www.php.net/" target="_blank" rel="noopener noreferrer"><FaPhp /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaPhp /></a>
                         </li>
                         <li>
                             <span className='icons' style={{ color: "#000", marginBottom: "12px" }}>
@@ -54,19 +54,19 @@ const Skills = () => {
                     <h2 className="skills-box-title">Otros</h2>
                     <ul>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><TbBrandMysql /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><TbBrandMysql /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer"><SiPostgresql /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><SiPostgresql /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://github.com/" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://visualstudio.microsoft.com/" target="_blank" rel="noopener noreferrer"><SiVisualstudio /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><SiVisualstudio /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer"><SiVisualstudiocode /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#" target="_blank" rel="noopener noreferrer"><SiVisualstudiocode /></a>
                         </li>
                     </ul>
                 </div>
