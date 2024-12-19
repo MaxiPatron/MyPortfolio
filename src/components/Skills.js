@@ -1,7 +1,7 @@
 import React from 'react';
 import './SkillsStyle.css';
-import { FaJs, FaHtml5, FaCss3, FaReact, FaBootstrap, FaNpm, FaPhp, FaGithub  } from "react-icons/fa";
-import { SiPostgresql, SiVisualstudio, SiVisualstudiocode  } from "react-icons/si";
+import { FaJs, FaHtml5, FaCss3, FaReact, FaBootstrap, FaNpm, FaPhp, FaGithub } from "react-icons/fa";
+import { SiPostgresql, SiVisualstudio, SiVisualstudiocode } from "react-icons/si";
 import { FaC } from "react-icons/fa6";
 import { TbBrandMysql } from "react-icons/tb";
 
@@ -12,56 +12,63 @@ const Skills = () => {
             <div className="skills-container">
                 <div className="skills-box">
                     <h2 className="skills-box-title">Frontend</h2>
-                    <p className="skills-text">
+                    <ul className="skills-text">
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="javascript:void(0)"><FaHtml5 /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaHtml5 /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="javascript:void(0)"><FaCss3 /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaCss3 /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="javascript:void(0)"><FaJs /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaJs /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="javascript:void(0)"><FaReact /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaReact /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }} href="javascript:void(0)"><FaBootstrap /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaBootstrap /></a>
                         </li>
-                    </p>
+                    </ul>
                 </div>
                 <div className="skills-box">
                     <h2 className="skills-box-title">Backend</h2>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}><FaNpm /></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}><FaPhp /></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000", marginBottom:"12px"}}><span className='icon'><FaC /></span><span className='hash'>#</span></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000", fontSize:"1.5rem", marginBottom:"12px"}}>ASP.NET</a>
-                    </li>
+                    <ul>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaNpm /></a>
+                        </li>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaPhp /></a>
+                        </li>
+                        <li>
+                            <span className='icons' style={{ color: "#000", marginBottom: "12px" }}>
+                                <FaC />
+                                <span className='hash'>#</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span className='icons' style={{ color: "#000", fontSize: "1.5rem", marginBottom: "12px" }}>ASP.NET</span>
+                        </li>
+                    </ul>
                 </div>
                 <div className="skills-box">
                     <h2 className="skills-box-title">Otros</h2>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}><TbBrandMysql /></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}> <SiPostgresql /></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}><FaGithub /></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}><SiVisualstudio /></a>
-                    </li>
-                    <li>
-                        <a className='icons' style={{ color: "#000" }}><SiVisualstudiocode /></a>
-                    </li>
+                    <ul>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><TbBrandMysql /></a>
+                        </li>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><SiPostgresql /></a>
+                        </li>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaGithub /></a>
+                        </li>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><SiVisualstudio /></a>
+                        </li>
+                        <li>
+                            <a className='icons' style={{ color: "#000" }} href="#"><SiVisualstudiocode /></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
