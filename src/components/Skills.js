@@ -14,19 +14,19 @@ const Skills = () => {
                     <h2 className="skills-box-title">Frontend</h2>
                     <p className="skills-text">
                         <li>
-                            <a className='icons' style={{ color: "#000" }}><FaHtml5 /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaHtml5 /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }}><FaCss3 /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaCss3 /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }}><FaJs /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaJs /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }}><FaReact /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaReact /></a>
                         </li>
                         <li>
-                            <a className='icons' style={{ color: "#000" }}><FaBootstrap /></a>
+                            <a className='icons' style={{ color: "#000" }} href="#"><FaBootstrap /></a>
                         </li>
                     </p>
                 </div>
