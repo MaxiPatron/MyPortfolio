@@ -15,7 +15,7 @@ const About = () => {
                         </div>
                         <div className="right">
                             <p>
-                                Me llamo Patrón Máximo, tengo 21 y actualmente estoy cursando el último año de la carrera de Analista de Sistemas de Computación en <a href="https://www.cervantes.edu.ar/">Institución Cervantes</a><br />
+                                Me llamo Patrón Máximo, tengo 21 y actualmente terminé el cursado de la carrera de Analista de Sistemas de Computación en <a href="https://www.cervantes.edu.ar/">Institución Cervantes</a><br />
                                 En un principio cuando me interesó el mundo de la programación por el 2018 practiqué bastante Fron End, luego adentrándome más me incline hacia el Back End logrando que me interese aún más por la programación
                             </p>
                         </div>
