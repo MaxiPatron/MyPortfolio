@@ -1,6 +1,5 @@
 import "./BackImgStyle.css";
 import IntroImg from "../assets/Prog.jpg";
-import { Link } from "react-router-dom";
 const BackImg = () => {
     return (<div className="imghome">
         <div className="mask">
