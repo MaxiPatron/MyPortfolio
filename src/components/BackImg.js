@@ -10,12 +10,6 @@ const BackImg = () => {
             <p style={{ color: "#fff" }}>Hola, soy Máximo</p>
             <h1 style={{ color: "#000" }}>Desarrollador de Software</h1>
             <div>
-                <Link to="/" className="btn">
-                    Proyectos
-                </Link>
-                <Link id="About" className="btn btn-light">
-                    <a href="#footer">Contacto</a>
-                </Link>
             </div>
         </div>
     </div>)
