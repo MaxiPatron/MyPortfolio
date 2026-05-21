@@ -51,6 +51,14 @@
     border-radius: 5px;
 }
 
+.hero-subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem !important;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  opacity: 0.85;
+}
+
 @media screen and (max-width: 640px) {
     .imghome .content h1 {
         font-size: 3rem;

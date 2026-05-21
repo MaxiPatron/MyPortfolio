@@ -8,6 +8,7 @@ const BackImg = () => {
         <div className="content">
             <p style={{ color: "#fff" }}>Hola, soy Máximo</p>
             <h1 style={{ color: "#000" }}>Desarrollador Web</h1>
+            <p className="hero-subtitle">Creando experiencias web modernas</p>
             <div>
             </div>
         </div>
